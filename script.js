@@ -44,4 +44,9 @@ bonusTreasure.addEventListener("click", () => {
   const pink = (document.body.style.background = "#f694c1");
   const purple = (document.querySelector("nav").style.background = "#e4c1f9");
   welcomeText.textContent = "Du hittade bonusskatten!";
+
+  welcomeText.classList.add("flash");
+  setTimeout(() => {
+    welcomeText.classList.remove("flash");
+  }, 3000);
 });

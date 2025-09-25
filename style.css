@@ -125,3 +125,17 @@ footer {
   text-align: center;
   padding: 2rem 0;
 }
+
+.flash {
+  animation: flash 1s ease-in-out 3;
+}
+
+@keyframes flash {
+  0%,
+  100% {
+    color: inherit;
+  }
+  50% {
+    color: #ff0000;
+  }
+}
