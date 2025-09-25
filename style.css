@@ -1,5 +1,14 @@
 /* Denna Heads-Up-Display är det fritt fram att styla om och placera på andra ställen! */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #hud {
   position: fixed;
   top: 0;
@@ -11,4 +20,76 @@
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #cfd8dc;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  text-align: center;
+  padding: 5rem 4rem;
+}
+
+.treasure:hover {
+  color: rgb(170, 160, 100);
+}
+
+#treasure9:hover {
+  font-size: 20px;
+}
+
+.found {
+  text-decoration: line-through;
+  color: rgb(202, 37, 37);
+}
+
+img {
+  height: 200px;
+  width: auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card h3 {
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+footer {
+  background-color: #555;
 }
