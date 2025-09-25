@@ -1,0 +1,14 @@
+/* Denna Heads-Up-Display är det fritt fram att styla om och placera på andra ställen! */
+
+#hud {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
