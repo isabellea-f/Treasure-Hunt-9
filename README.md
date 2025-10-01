@@ -17,9 +17,9 @@ Projektet skapades av Veronica Czarnotta, Isabelle Franzén och Twana Taher.
 
 2. Gå in i mappen:
 
-```bash
+   ```bash
    cd Treasure-Hunt-9
-```
+   ```
 
 3. Öppna index.html i din webbläsare
 
